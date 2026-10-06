@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>How Collision Detection Works Between Game Objects | 999V</title>
+  <meta name="google-site-verification" content="mOvmfhtgu7O2FTaQNbKAQ1uH3CLM-0F4ZLhOkxkvxBc" />
 <meta name="description" content="Explore the basic purpose of collision detection, how games represent object boundaries, how overlap is identified, and why reliable detection matters for gameplay.">
 <link rel="canonical" href="">
 <script>document.querySelector('link[rel="canonical"]').href = window.location.href;</script>
@@ -84,6 +85,7 @@ footer{background:#030509;color:#4a5568;text-align:center;padding:34px;margin-to
 <h2>Why Collision Detection Underlies All Physical Interaction</h2>
 <p>Every part of a game that involves objects occupying or sharing space depends on some form of collision detection. Gravity systems need to know when a character has reached the floor so downward movement can stop. Projectile systems need to know when a shot has reached its target. Navigation systems need to know which areas are blocked by obstacles. Even visual layering in two-dimensional games can rely on spatial checks to determine which objects appear in front of others. The collision system is therefore not a single feature but a shared foundation that many other game systems draw on to determine how objects relate to one another spatially.</p>
 <p>Understanding this foundational role helps explain why decisions about how collision boundaries are shaped, how often they are tested, and how overlaps are resolved have broad effects on how the game feels and functions. Adjustments to one object's collision shape can change how movement through a particular area feels. Changes to the update frequency affect how reliably fast-moving interactions register. The collision system shapes the physical reality of a game world at every scale, from the smallest collectible to the largest environmental boundary.</p>
+<p>Understanding how virtual objects are given boundaries provides a useful foundation for looking at more specific interactions. The next step is to consider what happens when those boundaries belong to characters moving through environmental spaces with <a href="https://umjynb.codeberg.page/andEnvironments">game object boundaries</a>.</p>
 </div>
 <footer>© 2026</footer>
 </body>
